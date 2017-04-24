@@ -1,0 +1,29 @@
+{
+  "name": "sr-test-repo-2",
+  "version": "0.0.0-development",
+  "description": "another semantic-release test repo",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "exit 0",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/priley86/sr-test-repo-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priley86/sr-test-repo-2/issues"
+  },
+  "homepage": "https://github.com/priley86/sr-test-repo-2#readme",
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "semantic-release": "^6.3.2"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  }  
+}
