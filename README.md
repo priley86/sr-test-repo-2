@@ -2,3 +2,4 @@
 
 another semantic-release test repo
 abc
+testing perf
